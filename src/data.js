@@ -1,6 +1,6 @@
 import katieImg from "/src/assets/keith.png"
-import weddingImg from "./src/assets/wedding.png"
-import mountainBikeImg from "./src/assets/mountain-bike.png"
+import weddingImg from "/src/assets/wedding.png"
+import mountainBikeImg from "/src/assets/mountain-bike.png"
 
 export default [
   {
