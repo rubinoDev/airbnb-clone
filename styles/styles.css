@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color:#1e293b;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,h2,h3,h4,p{
+  margin:0;
+}
+
+html{
+  font-size:62.5%;
+}
+
+.App{
+  width:55rem;
+  margin:0 auto;
+  background-color:white;
+
+}
+
+nav{
+  padding:2.2rem;
+  box-shadow: 0px 0.298256rem 0.74564rem rgba(0, 0, 0, 0.1);
+}
+
+
+
+.hero{
+  width:100%;
+
+} 
+
+.hero__img{
+  display:block;
+  margin:0 auto;
+  width:39rem;
+  padding-block:3.3rem;
+}
+
+.hero__p-container{
+  padding-left:3.6rem;
+  width:36rem;
+}
+
+.hero__h1{
+  font-weight: 600;
+  font-size: 3.6rem;
+  line-height: 110%;
+  text-align:left;
+  padding-left:3.6rem;
+  padding-bottom: 2.3rem;
+
+}
+
+.hero__p{
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 110%;
+  padding-bottom:5.4rem;
+}
+
+.cards{
+  font-size:1.2rem;
+  padding-left:3.7rem;
+
+  display:flex;
+  gap:1.8rem;
+  overflow-x: hidden;
+
+}
+
+.card__container{
+  padding-bottom: 3rem;
+  position:relative;
+
+}
+
+
+
+.card__badge{
+  position:absolute;
+  top: 6px;
+  right: 107px;
+
+}
+
+.card__rate::before{
+  content:url('../src/assets/Star.svg');
+}
+
+.card__rate span{
+  color:hsla(254, 6%, 58%, 1);
+}
+
+
+.card__price span{
+  font-weight:300;
+}
