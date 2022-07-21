@@ -1,7 +1,9 @@
+import airbnbLogo from "src/assets/airbnb-logo.svg"
+
 export function Navbar(){
   return(
       <nav>
-        <img src="src/assets/airbnb-logo.svg" alt="AirBnb"/>
+        <img src={airbnbLogo} alt="AirBnb"/>
       </nav>
   )
 }

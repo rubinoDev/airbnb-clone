@@ -1,10 +1,13 @@
+import soldOutImg from "/src/assets/soldout.png"
+import onlineImg from "./src/assets/online.png"
+
 export function Card(props){
   let badgeImg
 
   if(props.openSpots === 0){
-    badgeImg = "./src/assets/soldout.png"
+    badgeImg = {soldOutImg}
   }else if(props.location === "Online"){
-    badgeImg= "./src/assets/online.png"
+    badgeImg= {onlineImg}
   }
 
   return(
