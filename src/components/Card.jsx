@@ -1,5 +1,5 @@
 import soldOutImg from "/src/assets/soldout.png"
-import onlineImg from "./src/assets/online.png"
+import onlineImg from "/src/assets/online.png"
 
 export function Card(props){
   let badgeImg
